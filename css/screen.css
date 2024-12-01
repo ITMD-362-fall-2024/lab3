@@ -210,8 +210,9 @@ body{
 h1{
   font-size:2em;
   text-align: center;
-  padding: 20px;
+  padding: 0.4em;
   line-height:0.8em;
+  width:90%;
 }
 p{
   font-size:1.2em;
