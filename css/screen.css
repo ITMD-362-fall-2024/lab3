@@ -261,7 +261,8 @@ li{
   align-items:center;
 }
 form{
-  text-align:center;	
+  text-align:center;
+  font-family: "Inter", "Arial","Times New Roman", sans-serif;
 }
 
 /* ===== LAYOUT STYLES ====== */
@@ -272,6 +273,9 @@ form{
   padding: 40px;
   line-height:0.8em;
   }
+  form{
+  font-family:"Arial","Times New Roman", sans-serif;
+}
 }
 
 @media only screen and (min-width: 768px){
@@ -281,6 +285,9 @@ form{
   padding: 30px;
   line-height:0.8em;
   }
+  form{
+  font-family:"Times New Roman", sans-serif;
+}
 }
 
 
