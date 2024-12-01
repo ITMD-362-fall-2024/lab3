@@ -270,25 +270,21 @@ form{
 @media only screen and (min-width: 480px){
   h1{
   font-size:2.779em;
-  text-align: center;
   padding: 40px;
-  line-height:0.8em;
   }
   form{
   font-family:"Arial","Times New Roman", sans-serif;
-}
+  }
 }
 
 @media only screen and (min-width: 768px){
   h1{
   font-size:4.632em;
-  text-align: center;
   padding: 30px;
-  line-height:0.8em;
   }
   form{
   font-family:"Times New Roman", sans-serif;
-}
+  }
 }
 
 
