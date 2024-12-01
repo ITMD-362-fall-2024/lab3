@@ -201,8 +201,87 @@ html {
 label {
   display: block;
 }
+body{
+  background-image:url('../media/bluegrid.svg');
+  background-position:top;
+  background-color:#696969;
+  font-family: Arial, sans-serif;
+}
+h1{
+  font-size:2em;
+  text-align: center;
+  padding: 20px;
+  line-height:0.8em;
+}
+p{
+  font-size:1.2em;
+  text-align: center;
+  padding: 0.4em;
+}
+#content{
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 10px;
+  background-color:#C0C0C0;
+  width:90%;
+}
+
+#container {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  font-size: 22px;
+  user-select: none;
+}
+input{
+  margin: 0.4rem;
+}  
+#input-age-verification {
+  display: flex;
+  padding: 10px;
+  align-items: center;
+  justify-content: left;
+}
+input[type="email"] {
+  width: 100%;
+  border: none;
+  height: 35px;
+  color:white;
+  margin:0;
+}
+label {
+  font-size:1rem;
+}
+
+#submit{
+  width:100%
+}
+li{
+  align-items:center;
+}
+form{
+  text-align:center;	
+}
 
 /* ===== LAYOUT STYLES ====== */
+@media only screen and (min-width: 480px){
+  h1{
+  font-size:2.779em;
+  text-align: center;
+  padding: 40px;
+  line-height:0.8em;
+  }
+}
+
+@media only screen and (min-width: 768px){
+  h1{
+  font-size:4.632em;
+  text-align: center;
+  padding: 30px;
+  line-height:0.8em;
+  }
+}
 
 
 /* ===== STATE STYLES ======= */
